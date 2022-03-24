@@ -1,0 +1,70 @@
+.jumbotron {
+    background-color: transparent;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    animation: fade-in 2s ease-in 0s;
+
+}
+body .backgroundIMG {
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    height: 100vh;
+    border-bottom: 10px solid #ff000065;
+}
+body {
+    height: 300vh;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    
+}
+nav {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #e90800 0%, #741706 100%);
+
+}
+.jumbotron hr {
+   
+    border-top: 3px solid red;
+    border-radius: 50%;
+
+}
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      
+    }
+    100% {
+      opacity: 1;
+      
+    }
+  }
+
+
+.clouds {
+    top: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/cloud-background-pastel-paper-cut-style-vector_53876-135914.jpg?t=st=1648133065~exp=1648133665~hmac=c7b1bd775fa5b7ee77953dcb3a4da97d60b2469135fe07009294fc4f1acfe34b&w=826);
+    
+    height: 810px;
+    
+
+
+}  
+div.card {
+    position: relative;
+}
+div.card img:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+hr {
+    border-top: 20px solid rgba(0, 119, 255, 0.616);
+    margin-top: 0px;
+}
+table {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+ margin-top: 0;
+ padding-top: 0px;
+}

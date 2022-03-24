@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello</title>
+  </head>
+  <body>
+
+  <!-- As a heading -->
+  <nav class="navbar navbar-dark bg-danger">
+    <span class="navbar-brand mb-0 h1">Music</span>
+  </nav>
+
+  <!-- EXERCISE 1
+        Create a Jumbotron section with a quick explanation / image of the website.
+        Make it appear with a fade-in animation effect when the page loads.
+    -->
+    
+    <div class="backgroundIMG">
+    <div class="jumbotron">
+        
+        <h1 class="display-4 text-white">Listening to Music</h1>
+        <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p class="text-white">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </div>
+    <!-- EXERCISE 2
+        Use a Bootstrap Card to contain every album in the favorite list you previously created.
+        Use the elements of a card bootstrap provides you with to display nicely the album informations such as: album title, artist, year, etc..
+    -->
+    <div class="clouds">
+        
+    <div class="container pt-4"> 
+    <div class="row">                                   
+    <div class="col-md-4 borderr">
+       
+        <div class="card mb-4 shadow-sm">
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/products/T1459A839MPA4459PT28D146887650FS1968/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/hip-hop-culture-logo-sticker.jpg" alt="" width="55px" height="55px">
+          <img src="https://m.media-amazon.com/images/I/81hF73Kv9GL._SL1200_.jpg" alt="">
+
+          <div class="card-body ">
+            <p class="card-text">Juice WRLD - Legends never die <br> Juice Wrld died of drug overdose <br> His music was special, <br> and he was probrably the best freestyler of all time.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">0 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 borderr">
+        <div class="card mb-4 shadow-sm">
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/products/T1459A839MPA4459PT28D146887650FS1968/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/hip-hop-culture-logo-sticker.jpg" alt="" width="55px" height="55px">
+          <img src="https://wallpaperaccess.com/full/3394003.jpg" alt="" sizes="" srcset="">
+          <div class="card-body">
+            <p class="card-text">SWIMMING - Mac Miller <br> Mac Miller is dead already. <br> His Music aint forgotten and never will</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">0 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 borderr">
+        <div class="card mb-4 shadow-sm">
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/products/T1459A839MPA4459PT28D146887650FS1968/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/hip-hop-culture-logo-sticker.jpg" alt="" width="55px" height="55px">
+        <img src="https://doering.media/wp-content/uploads/2021/05/PHOTO-2021-04-30-09-41-41.jpg" alt="">
+
+          <div class="card-body">
+            <p class="card-text">german turkish artist who makes Trap music. His music is liked international, cause of the beats synced to his stay high voice</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">0 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+    </div>
+    <hr>
+
+    <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">HIT</th>
+            <th scope="col">NAME</th>
+            <th scope="col">ALBUM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>JUICE WRLD</td>
+            <td>RIGHTEOUS</td>
+            <td>LEGENDS NEVER DIE</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>MAC MILLER</td>
+            <td>CIRCLES</td>
+            <td>CIRCLES</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">YAYAYAYA</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    <!-- EXERCISE 3
+        For every album in the favorite list, attach a badge on the top-left corner of the album with the genre of the music
+    -->
+<!--                       D o n e                           -->
+
+    <!-- EXERCISE 4
+        Create a new section with an album tracklist inside a Bootstrap table.
+        The row colors of the table must be alternated.
+
+        There should be a column for the track order number, one for the title and one for the track duration.
+        (If you want, you can also add extra columns)
+    -->
+
+    <!-- EXERCISE 5
+        Add a DELETE bootstrap button at the end of each row of the tracklist. 
+        Attach the functionality to remove its row when it gets clicked. (Requires DOM manipulation)  
+
+        ## EXTRA CSS CHALLENGE ##
+        Make only one button visible at a time, for each row, when the single row gets hovered. 
+        Animate it with a fade-in effect upon the user hovering and fade-out when he/she goes away from it.
+    -->
+
+    <!-- EXERCISE 6
+        Add an "Add Track" button under the tracklist of the album. 
+        It should have a nice shadow transition when its hovered (with the box-shadow property) 
+        to look like as if the button was elevating itself.
+    -->
+
+    <!-- ############### -->
+    <!-- ###  EXTRA  ### -->
+    <!-- ############### -->
+
+    <!-- EXERCISE 7
+        On the click of "Add Track" button, a modal should appear.
+        (check in the documentation the modal + button example)
+        
+        The modal shall contain single input fields (avoid using a <form> to wrap the inputs) with:
+        - Track number
+        - Track title
+        - Track duration
+
+        The fields should be inside an Input Group and divided in 2 columns.
+    -->
+
+
+    <!-- EXERCISE 8
+        The modal should contain 2 buttons at the bottom:
+        - Add => Adds a new track in the tracklist with the data of the input fields.
+        - Close => closes the modal
+
+        https://getbootstrap.com/docs/4.6/components/alerts/
+        [EXTRA] Make the message disappear after 5 seconds
+        https://www.w3schools.com/jsref/met_win_settimeout.asp
+    -->
+
+    <!-- EXERCISE 9
+        Alert the user with a success message when the track gets added, or when a track gets deleted.
+     -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
